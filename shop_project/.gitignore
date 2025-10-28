@@ -1,0 +1,38 @@
+# PROTOTIPO DI .gitignore DI LIVELLO AZIENDALE
+
+# --- File sensibili e configurazioni ---
+.env
+*.env
+*.key
+*.pem
+
+# --- Cache e compilati Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+
+# --- Ambiente virtuale ---
+venv/
+env/
+.venv/
+
+# --- File temporanei ---
+*.log
+*.pot
+*.pyc
+*.db
+.DS_Store
+
+# --- Cartelle di Django ---
+staticfiles/
+media/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+
+# --- Test / build / coverage ---
+.coverage
+htmlcov/
+build/
+dist/
